@@ -32,6 +32,6 @@ npm start
 
 ### Reflection notes
 
-* The biggest challenge was reindexing the name when someone updated their name
+* The biggest challenge was reindexing the name when someone updated their name.
 * The complexity grew quickly and I had to scale back some ideas to complete in time. E.g. dates are currently stored as text, but I wanted to check whether a child's birthdate was greater than the parent's before assigning a parent-child relationship.
-* Adding `inquirer` added interactivity to the program and highlighted several bugs to resolve, especially input validation.
+* The biggest win was adding `inquirer` which provides interactivity to the program and highlighted several bugs to resolve, especially input validation.
