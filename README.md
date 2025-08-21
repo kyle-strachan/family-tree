@@ -10,8 +10,8 @@ A CLI family tree project to practice algorithms and data structures.
 
 ## Installation
 ```
-git clone 
-cd family_tree
+git clone https://github.com/kyle-strachan/family-tree.git
+cd family-tree
 npm install
 ```
 
