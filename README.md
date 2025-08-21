@@ -4,7 +4,10 @@ A CLI family tree project to practice algorithms and data structures.
 ## Features
 * Insert and update individuals
 * Create parent-to-child and spouse-spouse relationships
+* Option to apply parent-child relationship to spouse
+* Remove a spouse-spouse relationship without impacting parent-child relationships
 * Display the family tree
+* Ability to update names and birthdates
 * Inquirer-based CLI with validated inputs
 * Case-insensitive index by name search
 
@@ -34,4 +37,4 @@ npm start
 
 * The biggest challenge was reindexing the name when someone updated their name.
 * The complexity grew quickly and I had to scale back some ideas to complete in time. E.g. dates are currently stored as text, but I wanted to check whether a child's birthdate was greater than the parent's before assigning a parent-child relationship.
-* The biggest win was adding `inquirer` which provides interactivity to the program and highlighted several bugs to resolve, especially input validation.
+* The biggest win was adding `inquirer` which provides interactivity to the program and highlighted several bugs to resolve. The use of `option` significantly improved input validation and replaced previous logic.
